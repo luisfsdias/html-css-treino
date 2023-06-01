@@ -4,8 +4,6 @@
 
 <a href="">Treino 1 - Parágrafos, títulos e linhas horizontais</a>
 
-<a href="#">Treino 2 - </a>
-
 <a href="#">Treino 2 - Emojis</a>
 
 <a href="#">Treino 3 - Imagens e favicon</a>
@@ -16,9 +14,15 @@
 
 <a href="#">Treino 6 - Links</a>
 
-<a href="#">Treino 7 - Imagens dinâmicas, áudios e vídeos</a>
+<a href="#">Treino 7 - Imagens dinâmicas</a>
 
-<a href="#">Treino 8 - </a>
+<a href="#">Treino 7 - Áudios e vídeos</a>
 
+<a href="#">Treino 9 - CSS e cores</a>
 
+<a href="#">Treino 10 - </a>
+
+<a href="#">Treino 11 - </a>
+
+<a href="#">Treino 12 - </a>
  
