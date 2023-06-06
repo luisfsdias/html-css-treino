@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fontes</title>
+    <title>Pseudo-Elementos e pseudo-classes</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #ignis{
+            color: red;
+        }
+
+        #darkus{
+            color: purple;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        } 
+
+        a{
+            
+            color: black;
+        }
+
+        a:hover{
+            color: royalblue;
+        }
+
+        a::before{
+
+            content: '>';
+        }
+
+        a::after{
+            content: '<';
+        }
+
+        /*a:visited{
+            color: red;
+        }*/
+
+     
+
+
+
+    </style>
 </head>
 <body>
+
+    <h1>Deuses</h1>
+
+    <h2 id="ignis">Ignis</h2>
+
+    <p>Deusa da Liberdade, diferente dos outros deuses ela não possui diversos mandamentos fixos para seus seguidores pois seu desejo é que todos sejam livres para fazerem o que seu coração mandar, o único porém sendo que não prejudique a liberdade do outro.</p>
+
+    <div class="segredo">
+    Segredo
+        
+    <p>Mesmo ela tendo uma personalidade aparentemente boba e livre de preocupções, ela é bem esperta e entende mais das coisas do que aparenta.</p>
+
+    </div>
+
+    <br>
+
+    <a href="#">Página sobre Ignis</a>
+
+    <h2 id="darkus">Darkus</h2>
+
+    <p>Deusa da Ambição, ela olha para nosso egoísmo, nosso senso de auto-preservação e nossa vontade de querer mais e diz que está perfeitamente correto termos isso, afinal de contas, se não tivessemos desejos próprios e ambições, como viveríamos?</p>
+
+    <div class="segredo">
+    Segredo
+
+        <p>Mesmo parecendo a deusa mais antagonista do panteão, Darkus se importa com o equilíbrio tanto quanto seus iguais, mesmo que se ideal aparente ser o mais passivo de corrupção, é algo intrísico da vida mortal.</p>
+
+    </div>
+
+    <br>
+    <a href="#">Página sobre Darkus</a>
     
     
 </body>

@@ -20,7 +20,7 @@
 
 <a href="#">Treino 9 - CSS e cores</a>
 
-<a href="#">Treino 10 - </a>
+<a href="#">Treino 10 - Pseudo-Elementos e pseudo-classes</a>
 
 <a href="#">Treino 11 - </a>
 
