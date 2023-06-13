@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas e modelos de caixas</title>
+    <style>
+
+:root{
+    --cor1: #59440D;
+    --cor2: #DFBC64;
+    --cor3: #DAA520;
+    --cor4: #594B28;
+    --cor5: #A67E19;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background-color: #DFBC64;
+}
+
+nav{
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: var(--cor3);
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+nav > a:hover{
+    background-color: var(--cor2);
+    transition-duration: .5s;
+}
+
+main{
+
+    
+    margin:auto;
+    background-color: white;
+
+}
+
+section{
+    margin: auto;
+    width: 400px;
+    padding: 10px;
+}
+
+article{
+
+    padding: 5px;
+    margin: 10px;
+    background-color: var(--cor5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+
+}
+
+aside#interna{
+    background-color: var(--cor2);
+    margin: 5px;
+    padding: 5px;
+}
+
+footer{
+    background-color: var(--cor3);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*aside#externa{
+
+    width: 120px;
+    background-color: #DFBC64;
+    position: relative;
+    padding: 5px;
+
+}*/
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Haos</a>
+            <a href="#">Nação</a>
+            <a href="#">Geografia</a>
+            <a href="#">Aventureiros</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <article>
+                <h2>Religião</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellendus non cumque unde ipsa, asperiores dolores culpa, assumenda voluptatum quod aliquam. Voluptatibus quam alias in quasi delectus dignissimos error sit?</p>
+            </article>
+
+            <article>
+                <h2>Geografia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus architecto nostrum veniam quod ab minima fuga minus voluptas quas necessitatibus labore porro quibusdam iusto, perferendis suscipit officia dicta consectetur.</p>
+            </article>
+
+            <article>
+                <h2>Aventureiros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et numquam exercitationem culpa dolore sint cumque totam perspiciatis possimus quasi enim. Praesentium quis dicta aliquid, adipisci delectus nobis qui. Doloribus, reiciendis!</p>
+
+                <aside id="interna">
+                    <h2>Quer conhecer pessoas de outras nações?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem natus accusamus nihil cumque illo illum nobis eligendi impedit velit. Ipsa officia praesentium inventore unde accusamus nobis rerum quia qui illo.</p>
+                </aside>
+            </article>
+        </section>
+
+       <!-- <aside id="externa">
+            <h2>Outras nações te esperam!</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, necessitatibus consequatur soluta numquam excepturi nesciunt qui neque fuga tempora modi odio itaque, veniam veritatis nulla! Pariatur itaque magnam labore id.</p>
+        </aside> -->
+
+
+    </main>
+
+    <footer>
+        <p>Criado por Luis</p>
+    </footer>
+
+    
+</body>
+</html>

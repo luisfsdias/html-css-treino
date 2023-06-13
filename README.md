@@ -22,7 +22,7 @@
 
 <a href="#">Treino 10 - Pseudo-Elementos e pseudo-classes</a>
 
-<a href="#">Treino 11 - </a>
+<a href="#">Treino 11 - Caixas e modelos de caixas</a>
 
 <a href="#">Treino 12 - </a>
  
