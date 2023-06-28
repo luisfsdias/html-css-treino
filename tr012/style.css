@@ -72,6 +72,12 @@ main{
 
 }
 
+main img{
+    display: block;
+    margin: auto;
+}
+
+
 main h1, h2{
 
 margin: 20px 0px;
